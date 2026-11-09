@@ -1,0 +1,23 @@
+# Generated index and passage records
+store.faiss
+chunks.json
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python and tool caches
+__pycache__/
+*.py[cod]
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
